@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Create Reservations</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+
+        <form action="/reservations" method="POST">
+        <ul class="form-style-1">
+            <li>
+                <label>Reservation id</label>
+                <input type="text" name="id" placeholder="id" class="field-long" />
+            </li>
+            <li>
+                <label>User</label>
+                <input type="text" name="user" placeholder="user" class="field-long" />
+            </li>
+            <li>
+                <label>Location</label>
+                <input type="text" name="location" placeholder="location" class="field-long" />
+            </li>
+            <li>
+                <label>Start Date</label>
+                <input type="date" name="startDateTime" placeholder="startDateTime" class="field-divided" />
+                <label>End Date</label>
+                <input type="date" name="endDateTime" placeholder="endDateTime" class="field-divided" />
+            </li>
+            <li>
+                <input type="submit" value="Submit" />
+            </li>
+        </ul>
+        </form>
+
+    </div>
+</body>
+
+</html>
